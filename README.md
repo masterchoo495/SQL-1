@@ -10,6 +10,7 @@ SELECT DISTINCT district FROM address
 WHERE district LIKE 'K%a' and district NOT LIKE '% %'
 ```
 Скриншот из DBeaver:
+![alt text](https://github.com/masterchoo495/SQL-1/blob/main/001.png)
 
 ---
 
@@ -26,6 +27,7 @@ WHERE CAST(payment_date as DATE) >= '2005-06-15' AND CAST(payment_date as DATE) 
 ```
 
 Скриншот из DBeaver:
+![alt text](https://github.com/masterchoo495/SQL-1/blob/main/002.png)
 
 ---
 
@@ -43,6 +45,7 @@ LIMIT 5
 ```
 
 Скриншот из DBeaver:
+![alt text](https://github.com/masterchoo495/SQL-1/blob/main/003.png)
 
 ---
 
@@ -63,6 +66,7 @@ WHERE (first_name = 'Kelly' OR first_name = 'Willie') AND active = 1
 ```
 
 Скриншот из DBeaver:
+![alt text](https://github.com/masterchoo495/SQL-1/blob/main/004.png)
 
 ---
 
