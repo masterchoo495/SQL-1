@@ -9,6 +9,7 @@
 SELECT DISTINCT district FROM address
 WHERE district LIKE 'K%a' and district NOT LIKE '% %'
 ```
+
 Скриншот из DBeaver:
 ![alt text](https://github.com/masterchoo495/SQL-1/blob/main/001.png)
 
