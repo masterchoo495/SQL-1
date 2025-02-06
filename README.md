@@ -4,13 +4,13 @@
 
 ### Решение
 
-Текст запроса:
+Текст запроса:  
 ```
 SELECT DISTINCT district FROM address
 WHERE district LIKE 'K%a' and district NOT LIKE '% %'
 ```
 
-Скриншот из DBeaver:
+Скриншот из DBeaver:  
 ![alt text](https://github.com/masterchoo495/SQL-1/blob/main/001.png)
 
 ---
@@ -21,13 +21,13 @@ WHERE district LIKE 'K%a' and district NOT LIKE '% %'
 
 ### Решение
 
-Текст запроса:
+Текст запроса:  
 ```
 SELECT * FROM payment
 WHERE CAST(payment_date as DATE) >= '2005-06-15' AND CAST(payment_date as DATE) <= '2005-06-18' AND amount > 10
 ```
 
-Скриншот из DBeaver:
+Скриншот из DBeaver:  
 ![alt text](https://github.com/masterchoo495/SQL-1/blob/main/002.png)
 
 ---
@@ -38,14 +38,14 @@ WHERE CAST(payment_date as DATE) >= '2005-06-15' AND CAST(payment_date as DATE) 
 
 ### Решение
 
-Текст запроса:
+Текст запроса:  
 ```
 SELECT * FROM rental
 ORDER BY rental_date DESC
 LIMIT 5
 ```
 
-Скриншот из DBeaver:
+Скриншот из DBeaver:  
 ![alt text](https://github.com/masterchoo495/SQL-1/blob/main/003.png)
 
 ---
@@ -60,13 +60,13 @@ LIMIT 5
 
 ### Решение
 
-Текст запроса:
+Текст запроса:  
 ```
 SELECT LOWER(last_name), REPLACE(LOWER(first_name), 'll', 'pp') FROM customer
 WHERE (first_name = 'Kelly' OR first_name = 'Willie') AND active = 1
 ```
 
-Скриншот из DBeaver:
+Скриншот из DBeaver:  
 ![alt text](https://github.com/masterchoo495/SQL-1/blob/main/004.png)
 
 ---
