@@ -4,6 +4,14 @@
 
 ### Решение
 
+Текст запроса:
+```
+SELECT DISTINCT district FROM address
+WHERE district LIKE 'K%a' and district NOT LIKE '% %'
+```
+Скриншот из DBeaver:
+
+---
 
 ### Задание 2
 
@@ -11,6 +19,15 @@
 
 ### Решение
 
+Текст запроса:
+```
+SELECT * FROM payment
+WHERE CAST(payment_date as DATE) >= '2005-06-15' AND CAST(payment_date as DATE) <= '2005-06-18' AND amount > 10
+```
+
+Скриншот из DBeaver:
+
+---
 
 ### Задание 3
 
@@ -18,6 +35,16 @@
 
 ### Решение
 
+Текст запроса:
+```
+SELECT * FROM rental
+ORDER BY rental_date DESC
+LIMIT 5
+```
+
+Скриншот из DBeaver:
+
+---
 
 ### Задание 4
 
@@ -29,6 +56,15 @@
 
 ### Решение
 
+Текст запроса:
+```
+SELECT LOWER(last_name), REPLACE(LOWER(first_name), 'll', 'pp') FROM customer
+WHERE (first_name = 'Kelly' OR first_name = 'Willie') AND active = 1
+```
+
+Скриншот из DBeaver:
+
+---
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
